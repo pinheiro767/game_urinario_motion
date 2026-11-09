@@ -1,0 +1,56 @@
+URINAMOTION 3D — PWA educativo responsivo
+=========================================
+
+O QUE VOCÊ RECEBEU
+------------------
+Este pacote contém o jogo COMPLETO em HTML, CSS, JavaScript e imagens WebP. Inclui:
+• 4 missões funcionais e sequenciais, pontuação e progresso salvo no dispositivo;
+• desafios por toque e arraste, com alternativas acessíveis sem arrastar;
+• animações sensoriais e opção de áudio por síntese de voz do aparelho;
+• design responsivo para Android, iPhone, iPad, tablets e computadores;
+• manifest e service worker: possibilidade de instalação e uso offline após o primeiro carregamento.
+
+IMPORTANTE: PWA não é APK nem arquivo instalável diretamente a partir de um ZIP. É um
+site instalável, que precisa ser publicado em um endereço HTTPS para funcionar como app.
+
+PUBLICAR GRATUITAMENTE PELO GITHUB PAGES
+----------------------------------------
+1. Acesse https://github.com/ e entre em sua conta.
+2. Crie um repositório público chamado urinamotion.
+3. Envie para a RAIZ desse repositório TODOS os arquivos e as pastas contidos
+   em UrinaMotion_PWA/ (index.html, app.js, styles.css, sw.js, manifest.webmanifest,
+   assets/ e icons/).
+   ATENÇÃO: a pasta assets e a pasta icons devem manter os arquivos dentro delas.
+4. Em Settings > Pages, escolha Deploy from a branch > main > /(root), e salve.
+5. Depois da publicação, abra: https://SEU_USUARIO.github.io/urinamotion/
+6. O jogo abre no navegador e pode ser adicionado à tela de início.
+
+INSTALAÇÃO NO ANDROID / TABLET ANDROID
+--------------------------------------
+Abra o endereço HTTPS no Chrome; menu ⋮ > Instalar app / Adicionar à tela inicial.
+Confirme. O ícone UrinaMotion aparecerá entre seus aplicativos.
+
+INSTALAÇÃO NO IPHONE / IPAD
+---------------------------
+Abra o endereço HTTPS no Safari; Compartilhar > Adicionar à Tela de Início > Adicionar.
+Abra pelo ícone criado. Alguns recursos variam conforme a versão do iOS/Safari.
+
+JOGAR NO COMPUTADOR PARA TESTE
+------------------------------
+Você pode abrir index.html para visualizar e jogar. Entretanto, o modo PWA/offline
+não funciona via file://. Para testar a PWA localmente em um computador:
+  python -m http.server 8000
+Em seguida, abra http://localhost:8000/
+
+NOTAS CIENTÍFICAS
+-----------------
+As gotas são símbolos sensoriais e não representam gotas de óleo no néfron.
+A filtração glomerular é baseada na barreira de filtração e em pressões;
+a reabsorção e secreção são processos celulares; o transporte ureteral é peristáltico.
+O líquido na bexiga é uma representação qualitativa e não escala clínica.
+
+PRIVACIDADE E DEPENDÊNCIAS
+--------------------------
+Sem anúncios, sem rastreamento, sem servidores externos e sem login.
+Progresso guardado localmente no aparelho; não há sincronização entre dispositivos.
+A voz usa o sintetizador do navegador, quando disponível.

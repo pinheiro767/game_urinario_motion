@@ -1,0 +1,19 @@
+{
+ "id":"./",
+ "name":"UrinaMotion 3D — Laboratório Sensorial do Sistema Urinário",
+ "short_name":"UrinaMotion",
+ "description":"Jogo educativo 3D sensorial sobre anatomia e fisiologia do sistema urinário, com quatro missões interativas.",
+ "lang":"pt-BR",
+ "start_url":"./index.html",
+ "scope":"./",
+ "display":"standalone",
+ "orientation":"any",
+ "background_color":"#051022",
+ "theme_color":"#07152c",
+ "categories":["education","games"],
+ "icons":[
+  {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+  {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+  {"src":"./icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+ ]
+}
